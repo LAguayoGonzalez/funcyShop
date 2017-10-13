@@ -1,6 +1,79 @@
 body{
     background-color: rgb(235,236, 237);
+    font-family: 'Roboto', sans-serif;
 }
+footer{
+    background-color: rgb(45, 48, 55);
+    color: rgb(106, 108, 117);
+}
+li{
+    list-style:none;
+    font-size: 1.2em;
+    line-height: 40px;
+}
+form{
+    padding: 25px;
+}
+li a{
+    text-decoration:none;
+    color: rgb(106, 108, 117);
+    margin-bottom: 15px;
+}
+nav a{
+    text-decoration:none;
+    color: rgb(119, 119, 119);
+    margin-right: 30px;
+}
+nav a:first-child{
+    margin-left:100px;
+}
+nav a:first-child:before{
+   content:url('../Imagenes/ice-cream-stick-with-bite.png');
+
+}
+nav a:last-child{
+    float:right;
+    margin-right:100px;
+}
+a:hover{
+    font-weight: 600;
+}
+button{
+    background-color: rgb(97,139,196);
+    border-radius: 6px;
+    color: white;
+    padding:5px;
+    border: solid 2px;
+    width: 250px;
+    line-height: 30px;
+}
+input{
+    -webkit-appearance: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-rendering: auto;
+    user-select: text;
+    cursor: auto;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input:checked {
+    border: 6px solid blue;
+    border-radius: 30%;
+    padding:2px;
+  }
+ input[type="radio" i]{
+    border-radius: 50%;
+ }   
 #banner{
     width:100%;
     margin-bottom: 30px;
@@ -34,6 +107,7 @@ body{
     margin: 0;
     display:inline-block;
     margin-bottom: 30px;
+    vertical-align: top;
 }
 .marcoImagen{
     border-radius: 50%;
@@ -46,25 +120,17 @@ body{
     background-color: white;
     margin-bottom: 30px;
 }
-li{
-    list-style:none;
-    font-size: 1.2em;
-    line-height: 40px;
-}
-footer{
-    background-color: rgb(45, 48, 55);
-    color: rgb(106, 108, 117);
-}
+
+
 .columFooter{
     width: 300px;
     padding-top: 25px;
     padding-left: 25px;
     margin: 0;
     display:inline-block;
+    vertical-align: middle;
 }
-form{
-    padding: 25px;
-}
+
 .precios{
     background-color: rgb(245,245,245);
     margin-right: 30px;
@@ -76,29 +142,7 @@ form{
 .precios li:last-child{
     background-color: rgb(245,245,245);
 }
-li a{
-    text-decoration:none;
-    color: rgb(106, 108, 117);
-    margin-bottom: 15px;
-}
-nav a{
-    text-decoration:none;
-    color: rgb(119, 119, 119);
-    margin-right: 30px;
-}
-nav a:first-child{
-    margin-left:100px;
-}
-nav a:last-child{
-    float:right;
-    margin-right:100px;
-}
-button{
-    background-color: rgb(97,139,196);
-    border-radius: 6px;
-    color: white;
-    padding:5px;
-    border: solid 2px;
-    width: 250px;
-    line-height: 30px;
+#subtitle{
+    font-size: 18px;
+    font-weight: 600;
 }
